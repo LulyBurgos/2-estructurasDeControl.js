@@ -21,7 +21,7 @@ function canBuyProduct() {
     const descuento=0.25;
     const precioConDescuento= precioProducto * (1-descuento);
     const dineroConDescuento=1150;
-    console.log(dineroDisponible>=precioConDescuento);//true o false, dependiendo del resultado
+    console.log(puedeComprar);//true o false, dependiendo del resultado
 }
 
 // Variables
